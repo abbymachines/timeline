@@ -1,25 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import timelineData from "./data/timeline.json";
+// import Timeline from "./components/Timeline";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  console.log("The value of timelineData is", timelineData);
+  console.log("We should use the timelineData in our project somehow...");
+
+  // <Timeline />;
+
+  return <div></div>;
 }
 
 export default App;
