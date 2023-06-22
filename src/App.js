@@ -1,6 +1,6 @@
 import "./App.css";
-import timelineData from "../data/timeline.json";
-import Timeline from "./Timeline.js";
+import timelineData from "./data/timeline.json";
+import Timeline from "./components/Timeline.js";
 
 function App() {
   console.log("The value of timelineData is", timelineData);

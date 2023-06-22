@@ -1,6 +1,6 @@
 import "./Timeline.css";
 import TimelineEvent from "./TimelineEvent";
-import timelineData from "/App.js";
+import timelineData from "../App.js";
 
 const Timeline = () => {
 
@@ -9,6 +9,8 @@ const Timeline = () => {
 
     <TimelineEvent person={theEvent["person"]} theStatus={theEvent["status"]} timestamp={theEvent["timestamp"]} />;
   }
+
+  return Timeline
 };
 
 export default Timeline;
