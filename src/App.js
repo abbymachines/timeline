@@ -6,7 +6,7 @@ function App() {
   console.log("The value of timelineData is", timelineData);
   console.log("We should use the timelineData in our project somehow...");
 
-  // <Timeline />;
+  // <Timeline data=timelineData />;
 
   return <div></div>;
 }
